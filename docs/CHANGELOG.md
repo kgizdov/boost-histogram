@@ -15,6 +15,7 @@ Python 2, and mostly equivalent in API to 1.0.
   the Kind of the histogram (`bh.Kind.COUNT` or `bh.Kind.MEAN`). `.options` has
   been renamed to `.traits`, and a few more useful traits were added, like
   `.discrete`. Most other portions of the Protocol were already present. [#476][]
+* Removed deprecated `.options` from axes and `.rank` form histograms. [#503][]
 
 
 #### Developer changes
@@ -34,6 +35,7 @@ Python 2, and mostly equivalent in API to 1.0.
 [#493]: https://github.com/scikit-hep/boost-histogram/pull/493
 [#495]: https://github.com/scikit-hep/boost-histogram/pull/495
 [#502]: https://github.com/scikit-hep/boost-histogram/pull/502
+[#503]: https://github.com/scikit-hep/boost-histogram/pull/503
 
 
 ## Version 0.12
